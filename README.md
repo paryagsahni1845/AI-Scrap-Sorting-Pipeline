@@ -15,7 +15,7 @@ The objective was to build a multi-class image classification system and deploy 
 
 ## 2. Dataset Used: TrashNet
 
-* **Source:** Publicly available TrashNet dataset (or similar derivative).
+* **Source:**  sourced from Kaggle's "[Trashnet Dataset](https://www.kaggle.com/datasets/feyzazkefe/trashnet),"
 * **Classes :** 6 classes: `Cardboard`, `Glass`, `Metal`, `Paper`, `Plastic`, `Trash`.
 * **Preprocessing:** Images were resized to 224x224 and normalized using ImageNet mean/std.
 * **Augmentation (Training Set):** Random flips, rotations ($\pm 15^\circ$), and color jitter were applied to enhance model robustness.
