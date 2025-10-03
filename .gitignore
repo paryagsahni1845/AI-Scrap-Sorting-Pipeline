@@ -1,0 +1,11 @@
+/scrapenv/
+__pycache__/
+*.pyc
+*.pyd
+
+/data/trashnet/
+
+.vscode/
+
+.DS_Store
+Thumbs.db

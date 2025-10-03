@@ -1,0 +1,9 @@
+torch
+torchvision 
+numpy
+pandas          
+Pillow          # Used by torchvision for image loading
+onnx            # Required to build the ONNX file
+onnxruntime     # Required to run the fast, lightweight inference session
+scikit-learn    
+matplotlib      
