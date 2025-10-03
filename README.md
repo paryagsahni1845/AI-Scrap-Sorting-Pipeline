@@ -1,4 +1,4 @@
-# End-to-End ML Pipeline for Real-Time Material Classification (AI Scrap Sorting Challenge)
+# End-to-End ML Pipeline for Real-Time Material Classification (AI Scrap Sorting)
 
 This project implements a complete Machine Learning pipeline for classifying scrap materials (waste) from image data, focusing on **speed, clarity, and deployment readiness** via ONNX
 
@@ -16,7 +16,7 @@ The objective was to build a multi-class image classification system and deploy 
 ## 2. Dataset Used: TrashNet
 
 * **Source:** Publicly available TrashNet dataset (or similar derivative).
-* **Classes ($\ge 5$ required):** 6 classes: `Cardboard`, `Glass`, `Metal`, `Paper`, `Plastic`, `Trash`.
+* **Classes :** 6 classes: `Cardboard`, `Glass`, `Metal`, `Paper`, `Plastic`, `Trash`.
 * **Preprocessing:** Images were resized to 224x224 and normalized using ImageNet mean/std.
 * **Augmentation (Training Set):** Random flips, rotations ($\pm 15^\circ$), and color jitter were applied to enhance model robustness.
 * **Data Split (Training Run):** Approximately 80% Train, 20% Validation (Test set reserved for simulation).
